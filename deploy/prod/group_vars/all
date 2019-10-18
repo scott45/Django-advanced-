@@ -1,0 +1,15 @@
+# App name
+app_name: django_app
+
+# Deployer User and Groups
+deployer_user: deployer
+deployer_group: deployers
+
+# SSH Keys Directory
+ssh_dir: <path-to-your-ssh-keys>
+
+# Github Code's Repo URL
+code_repository_url: https://github.com/realpython/django-bootstrap
+
+# App Directory
+app_dir: /home/{{ deployer_user }}/{{app_name}}

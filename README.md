@@ -198,8 +198,6 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 - `oc get users` to obtain the list of users
 - kubectl create clusterrolebinding permissive-binding --clusterrole=cluster-admin --user=<user_name> --group=system:serviceaccounts
 
- 
-
 
 NB: You must not delete the installation program or the files that the installation program creates. Both are required to delete the cluster.
 NB: An older version of oc cannot be used on OpenShift Container Platform 4.7. Download and install the new version of oc.
